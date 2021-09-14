@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', Arial;
+  background-color:  #1affff;
+  background-size: 400% 400%;
+  height: 100vh;
+}
+
+.container{
+	width: 382px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 35px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow:0px 1px 0px 1px rgba(128,128,128,0.30);
+}
+
+form{
+	padding:10px;
+}
+
+.form-input{
+	padding: 12px 25px;
+	border-radius: 5px;
+	border: 1px solid #bde6f4;
+}
+
+.form-input:focus{
+	border-style: none;
+	outline-color: #3ab3df;
+	border-radius: 5px;
+}
+
+#togglePassword{
+	margin-left: -40px;
+}
+
+input:placeholder-shown{
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 15px;
+  color: rgba(0,0,255,.70);
+}
+
+input:placeholder-shown{
+    animation: animated-text 3s steps(13,end) 1s 1 normal both;
+}
+
+@keyframes animated-text{
+	from{
+		width:0;
+	}
+
+	to{
+		width:210px;
+	}
+}
+
+h1{
+	text-align:center;
+	margin-top:-45px;
+	color:#fff;
+}
+
+.form-img{
+	width:100%;
+	height:220px;
+	object-fit:cover;
+ }
+
+ label{
+	 color:#858796;
+	 font-size: .9rem;
+ }
+
+ .submit{
+	 padding:10px 25px;
+	 width:100%;
+	 border:1px solid   #00e6e6;
+	 background-color:  #00e6e6;
+	 color:#fff;
+	 letter-spacing:1px;
+	 margin-top:10px;
+	 font-size: .9rem;
+	 font-weight:600px;
+	 border-radius: 10rem;
+ }
+
+ 
+ .submit:hover{
+	transition:1s;
+	background-color: #0cc;
+}
+
+ hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+ .btn-user {
+    font-size: .9rem;
+    border-radius: 10rem;
+	width: 85%;
+    padding: 10px 25px;
+	text-align: center;
+	text-decoration:none;
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;
+}
+
+.btn-google:hover{
+	transition:1s;
+	background-color:#e72918;
+}
+.btn-github {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #fff;
+}
+
+.btn-github:hover{
+	transition:1s;
+	background-color: #000;
+}
+
+.btn-block {
+    display: block;
+}
+
+.text-center{
+	display:flex;
+	justify-content: space-evenly;
+	margin-top:10px;
+	font-size:.8rem;
+	text-decoration:none;
+}
+
+.text-center a{
+	color:#858796;
+	text-decoration:none;
+	
+}
+
+.text-center a:hover{
+	text-decoration:underline;
+}
+
+.light {
+    position: absolute;
+    width: 0px;
+    opacity: .75;
+    background-color: white;
+    box-shadow: #e9f1f1 2px 5px 20px 2px;
+    opacity: 0;
+    top: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.x1{
+  -webkit-animation: floatUp 4s infinite linear;
+  -moz-animation: floatUp 4s infinite linear;
+  -o-animation: floatUp 4s infinite linear;
+  animation: floatUp 4s infinite linear;
+   -webkit-transform: scale(1.0);
+   -moz-transform: scale(1.0);
+   -o-transform: scale(1.0);
+  transform: scale(1.0);
+}
+
+.x2{
+  -webkit-animation: floatUp 7s infinite linear;
+  -moz-animation: floatUp 7s infinite linear;
+  -o-animation: floatUp 7s infinite linear;
+  animation: floatUp 7s infinite linear;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
+  left: 15%;
+}
+
+.x3{
+  -webkit-animation: floatUp 2.5s infinite linear;
+  -moz-animation: floatUp 2.5s infinite linear;
+  -o-animation: floatUp 2.5s infinite linear;
+  animation: floatUp 2.5s infinite linear;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -o-transform: scale(.5);
+  transform: scale(.5);
+  left: -15%;
+}
+
+.x4{
+  -webkit-animation: floatUp 4.5s infinite linear;
+  -moz-animation: floatUp 4.5s infinite linear;
+  -o-animation: floatUp 4.5s infinite linear;
+  animation: floatUp 4.5s infinite linear;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  left: -34%;
+}
+
+.x5{
+  -webkit-animation: floatUp 8s infinite linear;
+  -moz-animation: floatUp 8s infinite linear;
+  -o-animation: floatUp 8s infinite linear;
+  animation: floatUp 8s infinite linear;
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  transform: scale(2.2);
+  left: -57%;
+}
+
+.x6{
+  -webkit-animation: floatUp 3s infinite linear;
+  -moz-animation: floatUp 3s infinite linear;
+  -o-animation: floatUp 3s infinite linear;
+  animation: floatUp 3s infinite linear;
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+  left: -81%;
+}
+
+.x7{
+  -webkit-animation: floatUp 5.3s infinite linear;
+  -moz-animation: floatUp 5.3s infinite linear;
+  -o-animation: floatUp 5.3s infinite linear;
+  animation: floatUp 5.3s infinite linear;
+  -webkit-transform: scale(3.2);
+  -moz-transform: scale(3.2);
+  -o-transform: scale(3.2);
+  transform: scale(3.2);
+  left: 37%;
+}
+
+.x8{
+  -webkit-animation: floatUp 4.7s infinite linear;
+  -moz-animation: floatUp 4.7s infinite linear;
+  -o-animation: floatUp 4.7s infinite linear;
+  animation: floatUp 4.7s infinite linear;
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);
+  left: 62%;
+}
+
+.x9{
+  -webkit-animation: floatUp 4.1s infinite linear;
+  -moz-animation: floatUp 4.1s infinite linear;
+  -o-animation: floatUp 4.1s infinite linear;
+  animation: floatUp 4.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: 85%;
+}
+
+button:focus{
+  outline: none;
+}
+
+@-webkit-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-moz-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@-o-keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+@keyframes floatUp{
+  0%{top: 100vh; opacity: 0;}
+  25%{opacity: 1;}
+  50%{top: 0vh; opacity: .8;}
+  75%{opacity: 1;}
+  100%{top: -100vh; opacity: 0;}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+	  max-width: 95%;
+	}
+
+  }
